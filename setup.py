@@ -10,6 +10,7 @@ setup(
     description='Pygments lexer PPDDL',
     long_description=open('README.md').read(),
     keywords='pygments lexer ppddl',
+    version='0.0.1'
     packages=find_packages(),
     install_requires=['pygments >= 2.0'],
     entry_points='[pygments.lexers]\nppddl=pygments_ppddl:PPDDLLexer',
